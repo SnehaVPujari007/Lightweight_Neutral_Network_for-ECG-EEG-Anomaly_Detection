@@ -12,7 +12,7 @@ The goal is to provide an efficient and accurate solution for real-time medical 
 <ul>To set up the project, follow these steps:</ul>
 <ol type = "1">
 <li>Clone the repository:</li> </br>
-<ul>git clone https://github.com/SnehaVPujari007/Lightweight_Neutral_Network_for-ECG-EEG-Anomaly_Detection</ul>
+<ul>git clone https://github.com/SnehaVPujari007/Lightweight_Neutral_Network_for-ECG-EEG-Anomaly_Detection.git</ul>
 <ul>cd lightweight-neural-network-ecg-eeg</ul> </br>
 <li>Create a virtual environment:</li></br>
 <ul>python -m venv venv</ul>
@@ -22,7 +22,7 @@ The goal is to provide an efficient and accurate solution for real-time medical 
 
 </ol>
 <h3>Usage</h3>
-<h2>Training the Model</h2>
+<h4>Training the Model</h4>
 <ol type = "1">
 <li>Prepare your dataset:</li>
 
@@ -33,33 +33,28 @@ The goal is to provide an efficient and accurate solution for real-time medical 
 <ul>The training script will save the best-performing model to the models/ directory.</ul>
 </ol>
 <h2>Evaluating the Model</h2>
-Run the evaluation script:
-sh
-Copy code
-python evaluate.py
-This will output performance metrics and generate evaluation plots.
-Inference
-Use the model for anomaly detection:
-sh
-Copy code
-python infer.py --input data/sample_ecg_or_eeg_data.csv
-The inference script will process the input data and output anomaly detection results.
 
-Contributing
-We welcome contributions! Please follow these steps to contribute:
+<li>Run the evaluation script:</li> </br>
+<ul>python evaluate.py</ul>
+<ul>This will output performance metrics and generate evaluation plots.</ul>
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes and commit them (git commit -m 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Create a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
-For questions or support, please open an issue in the repository or contact us at [your-email@example.com].
 
-Thank you for using our lightweight neural network for ECG and EEG anomaly detection! We hope it aids in your research and development endeavors.
+<h3>Contributing </h3>
+<ul>Please follow these steps to contribute:</ul>
+
+<li>Fork the repository. </li>
+<li>Create a new branch (git checkout -b feature-branch).</li>
+<li>Make your changes and commit them (git commit -m 'Add new feature').</li>
+<li>Push to the branch (git push origin feature-branch).</li>
+<li>Create a pull request.</li>
+<h3>License</h3>
+<p>This project is licensed under the MIT License. See the LICENSE file for details.</p>
+
+<h3>Contact </h3>
+<p>For questions or support, please open an issue in the repository or contact us at dotsnehapujari555@gmail.com.</p>
+
+<b>Thank you for using our lightweight neural network for ECG and EEG anomaly detection! We hope it aids in your research and development endeavors. </b>
 
 
 
